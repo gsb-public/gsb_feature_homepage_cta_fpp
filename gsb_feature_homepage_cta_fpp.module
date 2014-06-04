@@ -1,0 +1,43 @@
+<?php
+/**
+ * @file
+ * Code for the GSB Feature Homepage CTA FPP feature.
+ */
+
+include_once 'gsb_feature_homepage_cta_fpp.features.inc';
+
+/**
+ * Implements hook_entity_alter().
+ */
+function gsb_feature_homepage_cta_fpp_entity_info_alter(&$entity_info) {
+  $entity_info['fieldable_panels_pane']['bundles']['homepage_cta'] = array(
+    'label' => t('Homepage CTA'),
+    'pane category' => t('GSB panes'),
+    'pane top level' => TRUE, // set to true to make this show as a top level icon
+    'pane icon' => drupal_get_path('module', 'panopoly_widgets') . '/images/icon_homepage_cta_fpp.png',
+    'admin' => array(
+      'path' => 'admin/structure/fieldable-panels-panes/manage/%fieldable_panels_panes_type',
+      'bundle argument' => 4,
+      // Note that this has all _ replaced with - from the bundle name.
+      'real path' => 'admin/structure/fieldable-panels-panes/manage/homepage-cta',
+      'access arguments' => array('administer fieldable panels panes'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_form_alter()
+ */
+function gsb_feature_homepage_cta_fpp_form_alter(&$form, &$form_state, $form_id) {
+
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for fieldable-panels-pane.tpl.php.
+ */
+function gsb_feature_homepage_cta_fpp_preprocess_fieldable_panels_pane(&$variables) {
+  if ($variables['elements']['#bundle'] != 'homepage_cta') {
+    return;
+  }
+}
+

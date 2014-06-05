@@ -8,20 +8,20 @@ dependencies[] = ctools
 dependencies[] = features
 dependencies[] = file
 dependencies[] = gsb_feature_base_fields
+dependencies[] = image
 dependencies[] = link
 dependencies[] = list
 dependencies[] = options
 dependencies[] = strongarm
 dependencies[] = text
+datestamp = 1401920448
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:2
-features[field_instance][] = fieldable_panels_pane-homepage_cta-field_file_single_public
 features[field_instance][] = fieldable_panels_pane-homepage_cta-field_homepage_cta_bg_color
 features[field_instance][] = fieldable_panels_pane-homepage_cta-field_homepage_cta_text
+features[field_instance][] = fieldable_panels_pane-homepage_cta-field_image_single_public
 features[field_instance][] = fieldable_panels_pane-homepage_cta-field_link_single
 features[field_instance][] = fieldable_panels_pane-homepage_cta-field_title
 features[variable][] = field_bundle_settings_fieldable_panels_pane__homepage_cta
 features_exclude[field_base][field_homepage_cta_bg_color] = field_homepage_cta_bg_color
 features_exclude[field_base][field_homepage_cta_text] = field_homepage_cta_text
-
-

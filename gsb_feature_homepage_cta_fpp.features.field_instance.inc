@@ -109,7 +109,7 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
     'custom_add_another' => '',
     'custom_remove' => '',
     'deleted' => 0,
-    'description' => '<strong>Dimensions</strong>: 600px by 440px',
+    'description' => '<strong>Dimensions</strong>: 1200px by 880px',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -137,7 +137,7 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
       'max_resolution' => '',
-      'min_resolution' => '',
+      'min_resolution' => '1200x880',
       'title_field' => 0,
       'user_register_form' => FALSE,
     ),
@@ -269,7 +269,7 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('<strong>Dimensions</strong>: 600px by 440px');
+  t('<strong>Dimensions</strong>: 1200px by 880px');
   t('<strong>Recommended length</strong>: approx. 75 characters');
   t('Do not include "http://gsb.stanford.edu/" for links to pages on this site. <strong>Example</strong>: programs/mba');
   t('Enter the program name.');

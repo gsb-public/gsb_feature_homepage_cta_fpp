@@ -50,7 +50,7 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>Select the background color that best compliments the most dominant color of the photo. <strong>Default color</strong>: blue',
       ),
       'type' => 'options_select',
-      'weight' => 1,
+      'weight' => -9,
     ),
     'workbench_access_field' => 0,
   );
@@ -98,7 +98,7 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 6,
+      'weight' => -5,
     ),
     'workbench_access_field' => 0,
   );
@@ -150,7 +150,7 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 4,
+      'weight' => -7,
     ),
     'workbench_access_field' => 0,
   );
@@ -214,7 +214,7 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
       ),
       'type' => 'link_field',
-      'weight' => 2,
+      'weight' => -8,
     ),
     'workbench_access_field' => 0,
   );
@@ -262,7 +262,7 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 5,
+      'weight' => -6,
     ),
     'workbench_access_field' => 0,
   );

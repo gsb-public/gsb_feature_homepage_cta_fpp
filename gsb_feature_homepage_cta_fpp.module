@@ -29,7 +29,21 @@ function gsb_feature_homepage_cta_fpp_entity_info_alter(&$entity_info) {
  * Implements hook_form_alter()
  */
 function gsb_feature_homepage_cta_fpp_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'fieldable_panels_panes_fieldable_panels_pane_content_type_edit_form' && $form['#bundle'] == 'homepage_cta') {
+    $form['#after_build'][] = 'gsb_feature_homepage_cta_fpp_after_build_form_alter';
+  }
+}
 
+/**
+ * After build form handler.
+ *
+ * We use this to fix up the validation form_error message to use the link's label(title).
+ *
+ * @see gsb_feature_homepage_cta_fpp_form_alter()
+ */
+function gsb_feature_homepage_cta_fpp_after_build_form_alter($form) {
+  $form['field_link_single']['und'][0]['url']['#title'] = $form['field_link_single']['und']['#title'];
+  return $form;
 }
 
 /**

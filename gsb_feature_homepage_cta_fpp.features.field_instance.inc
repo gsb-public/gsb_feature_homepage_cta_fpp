@@ -24,13 +24,10 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
     'description' => 'Select the background color that best compliments the most dominant color of the photo. <strong>Default color</strong>: blue',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'list',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'list_default',
-        'weight' => 0,
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 5,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -65,13 +62,10 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
     'description' => '<strong>Recommended length</strong>: approx. 75 characters',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'text_default',
-        'weight' => 4,
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 3,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -112,15 +106,15 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
     'description' => '<strong>Dimensions</strong>: 1200px by 880px',
     'display' => array(
       'default' => array(
-        'label' => 'above',
-        'module' => 'image',
+        'label' => 'hidden',
+        'module' => 'gsb_field_formatter',
         'settings' => array(
           'conditions' => array(),
           'image_link' => '',
           'image_style' => '',
         ),
-        'type' => 'image',
-        'weight' => 5,
+        'type' => 'gsb_field_formatter_image',
+        'weight' => 0,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -165,13 +159,13 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
     'description' => 'Do not include "http://gsb.stanford.edu/" for links to pages on this site. <strong>Example</strong>: programs/mba',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'link',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'link_default',
-        'weight' => 1,
+        'weight' => 2,
       ),
     ),
     'ds_extras_field_template' => '',
@@ -199,10 +193,10 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
         'insert_plugin' => '',
       ),
       'rel_remove' => 'default',
-      'title' => 'none',
+      'title' => 'value',
       'title_label_use_field_label' => 0,
       'title_maxlength' => 128,
-      'title_value' => '',
+      'title_value' => '[fieldable_panels_pane:field_homepage_cta_text]',
       'url' => 0,
       'user_register_form' => FALSE,
       'validate_url' => 1,
@@ -229,13 +223,13 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
     'description' => 'Enter the program name.',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 3,
+        'weight' => 0,
       ),
     ),
     'ds_extras_field_template' => '',

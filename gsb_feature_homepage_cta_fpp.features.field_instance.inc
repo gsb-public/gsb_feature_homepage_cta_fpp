@@ -156,7 +156,7 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
     'custom_remove' => '',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => 'Do not include "http://gsb.stanford.edu/" for links to pages on this site. <strong>Example</strong>: programs/mba',
+    'description' => 'Check this box if the link is to another domain or to a PDF file.',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
@@ -265,7 +265,7 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('<strong>Dimensions</strong>: 1200px by 880px');
   t('<strong>Recommended length</strong>: approx. 75 characters');
-  t('Do not include "http://gsb.stanford.edu/" for links to pages on this site. <strong>Example</strong>: programs/mba');
+  t('Check this box if the link is to another domain or to a PDF file.');
   t('Enter the program name.');
   t('Image');
   t('Link');

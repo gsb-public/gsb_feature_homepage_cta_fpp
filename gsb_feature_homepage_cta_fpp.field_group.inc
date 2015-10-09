@@ -30,7 +30,8 @@ function gsb_feature_homepage_cta_fpp_field_group_info() {
     'format_settings' => array(
       'label' => 'Content wrapper',
       'instance_settings' => array(
-        'classes' => '',
+        'id' => '',
+        'classes' => 'group-wrapper-content',
         'description' => '',
         'show_label' => '0',
         'label_element' => 'h3',

@@ -10,7 +10,8 @@
 function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'fieldable_panels_pane-homepage_cta-field_homepage_cta_bg_color'
+  // Exported field_instance:
+  // 'fieldable_panels_pane-homepage_cta-field_homepage_cta_bg_color'
   $field_instances['fieldable_panels_pane-homepage_cta-field_homepage_cta_bg_color'] = array(
     'bundle' => 'homepage_cta',
     'custom_add_another' => '',
@@ -52,7 +53,8 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'fieldable_panels_pane-homepage_cta-field_homepage_cta_text'
+  // Exported field_instance:
+  // 'fieldable_panels_pane-homepage_cta-field_homepage_cta_text'
   $field_instances['fieldable_panels_pane-homepage_cta-field_homepage_cta_text'] = array(
     'bundle' => 'homepage_cta',
     'custom_add_another' => '',
@@ -97,7 +99,8 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'fieldable_panels_pane-homepage_cta-field_image_single_public'
+  // Exported field_instance:
+  // 'fieldable_panels_pane-homepage_cta-field_image_single_public'
   $field_instances['fieldable_panels_pane-homepage_cta-field_image_single_public'] = array(
     'bundle' => 'homepage_cta',
     'custom_add_another' => '',
@@ -149,7 +152,8 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'fieldable_panels_pane-homepage_cta-field_link_single'
+  // Exported field_instance:
+  // 'fieldable_panels_pane-homepage_cta-field_link_single'
   $field_instances['fieldable_panels_pane-homepage_cta-field_link_single'] = array(
     'bundle' => 'homepage_cta',
     'custom_add_another' => '',
@@ -174,6 +178,7 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
     'label' => 'Link',
     'required' => 1,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_class' => 0,

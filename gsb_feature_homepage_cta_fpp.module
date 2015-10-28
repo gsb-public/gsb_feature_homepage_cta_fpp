@@ -28,7 +28,7 @@ function gsb_feature_homepage_cta_fpp_entity_info_alter(&$entity_info) {
  * Implements hook_form_alter()
  */
 function gsb_feature_homepage_cta_fpp_form_alter(&$form, &$form_state, $form_id) {
-  if ($form_id == 'fieldable_panels_panes_fieldable_panels_pane_content_type_edit_form' && $form['#bundle'] == 'homepage_cta') {
+  if ($form_id == 'fieldable_panels_panes_fieldable_panels_pane_content_type_edit_form' && !empty($form['#bundle']) && $form['#bundle'] == 'homepage_cta') {
     $form['field_homepage_cta_bg_color']['#prefix'] = 
       '<a href="https://onegsb.stanford.edu/group/gsb-web-authors" target="_blank">View homepage image CTA standards</a> for guidance on using this feature.';
     $form['#after_build'][] = 'gsb_feature_homepage_cta_fpp_after_build_form_alter';

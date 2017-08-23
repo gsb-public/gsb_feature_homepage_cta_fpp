@@ -114,7 +114,7 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
         'settings' => array(
           'conditions' => array(),
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => 'compress',
         ),
         'type' => 'gsb_field_formatter_image',
         'weight' => 0,

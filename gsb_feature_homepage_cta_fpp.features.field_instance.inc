@@ -11,7 +11,7 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance:
-  // 'fieldable_panels_pane-homepage_cta-field_homepage_cta_bg_color'
+  // 'fieldable_panels_pane-homepage_cta-field_homepage_cta_bg_color'.
   $field_instances['fieldable_panels_pane-homepage_cta-field_homepage_cta_bg_color'] = array(
     'bundle' => 'homepage_cta',
     'custom_add_another' => '',
@@ -54,7 +54,7 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'fieldable_panels_pane-homepage_cta-field_homepage_cta_text'
+  // 'fieldable_panels_pane-homepage_cta-field_homepage_cta_text'.
   $field_instances['fieldable_panels_pane-homepage_cta-field_homepage_cta_text'] = array(
     'bundle' => 'homepage_cta',
     'custom_add_another' => '',
@@ -100,7 +100,7 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'fieldable_panels_pane-homepage_cta-field_image_single_public'
+  // 'fieldable_panels_pane-homepage_cta-field_image_single_public'.
   $field_instances['fieldable_panels_pane-homepage_cta-field_image_single_public'] = array(
     'bundle' => 'homepage_cta',
     'custom_add_another' => '',
@@ -153,7 +153,7 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
   );
 
   // Exported field_instance:
-  // 'fieldable_panels_pane-homepage_cta-field_link_single'
+  // 'fieldable_panels_pane-homepage_cta-field_link_single'.
   $field_instances['fieldable_panels_pane-homepage_cta-field_link_single'] = array(
     'bundle' => 'homepage_cta',
     'custom_add_another' => '',
@@ -218,7 +218,7 @@ function gsb_feature_homepage_cta_fpp_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'fieldable_panels_pane-homepage_cta-field_title'
+  // Exported field_instance: 'fieldable_panels_pane-homepage_cta-field_title'.
   $field_instances['fieldable_panels_pane-homepage_cta-field_title'] = array(
     'bundle' => 'homepage_cta',
     'custom_add_another' => '',
